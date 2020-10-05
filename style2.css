@@ -5,7 +5,7 @@ main {
 }
 /* Background image from google */
 body {
-  background-image: url("/Users/nickscheurich/Desktop/Homework2/Homework-2_NK/pictures/background.jpg");
+  background-image: url("/Users/nickscheurich/Desktop/Homework2/pictures/background.jpg");
   overflow-x: hidden;
   background-size: cover;
 }

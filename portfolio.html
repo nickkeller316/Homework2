@@ -10,15 +10,15 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <!-- link to style sheet for small edits -->
+    <!-- stylesheet css -->
     <link
       rel="stylesheet"
-      href="/Users/nickscheurich/Desktop/Homework2/Homework-2_NK/style2.css"
+      href="/Users/nickscheurich/Desktop/Homework2/style2.css"
     />
     <title>Document</title>
   </head>
   <body>
-    <!-- nav bar from index.html -->
+    <!-- Nav bar. Same code from index.html (from bootstrap) -->
     <nav class="navbar navbar-expand-lg bg-sup">
       <a
         class="navbar-brand"
@@ -42,14 +42,14 @@
           <li class="nav-item active">
             <a
               class="nav-link"
-              href="/Users/nickscheurich/Desktop/Homework2/Homework-2_NK/contact.html"
+              href="/Users/nickscheurich/Desktop/Homework2/contact.html"
               >Contact <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
-              href="/Users/nickscheurich/Desktop/Homework2/Homework-2_NK/portfolio.html"
+              href="/Users/nickscheurich/Desktop/Homework2/portfolio.html"
               >Portfolio</a
             >
           </li>
@@ -63,58 +63,66 @@
         </ul>
       </div>
     </nav>
-    <!-- Contact card from bootstrap documentation, very few edits -->
-    <main class="row justify-content-center">
-      <div class="col-lg-10">
-        <div class="card">
-          <section class="card-body">
-            <h1>Reach Out</h1>
-            <form>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Full Name</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="Full Name"
-                />
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Email Address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="info@email.com"
-                />
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="5"
-                ></textarea>
-              </div>
-              <a
-                class="btn btn-outline-dark"
-                href="#"
-                type="submit"
-                role="button"
-                >Submit</a
-              >
-            </form>
-          </section>
+    <!-- Three seperate cards with pictures via bootstrap documentation -->
+    <div class="card-group">
+      <div class="card">
+        <img
+          src="/Users/nickscheurich/Desktop/Homework2/pictures/yeti.jpeg"
+          class="card-img-top"
+          alt="My Dog Yeti"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Seattle, Washington</h5>
+          <p class="card-text">
+            My family's dog Yeti! Yeti is a little over a year old. He is a
+            Bernedoodle, but mostly Bernese. He looks like a Bernese Montain
+            Dog, but the size of a Golden Retriever.
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Seattle, Washington</small>
         </div>
       </div>
-    </main>
-    <!-- end main contact card -->
-
-    <!-- Sticky footer via bootstrap -->
+      <div class="card">
+        <img
+          src="/Users/nickscheurich/Desktop/Homework2/pictures/img(4).jpg"
+          class="card-img-top"
+          alt="Discovery Park"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Seattle, Washington</h5>
+          <p class="card-text">
+            A viewpoint near my family's home in Seattle. Breathtaking visuals
+            of the Olympic mountains with the Puget Sound in front.
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"> Seattle, Washington</small>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="/Users/nickscheurich/Desktop/Homework2/pictures/img(6).jpg"
+          class="card-img-top"
+          alt="Crested Butte"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Crested Butte, Colorado</h5>
+          <p class="card-text">
+            My entire extended-family and myself go on a trip to Crested Butte
+            every summer. Always gorgeous.
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Crested Butte, Colorado</small>
+        </div>
+      </div>
+    </div>
+    <!-- footer from index.html -->
     <footer class="fixed-bottom">
       <a href="https://du.bootcampcontent.com/nickkeller316" target="_blank">
         <img
-          src="/Users/nickscheurich/Desktop/Homework2/Homework-2_NK/pictures/github.png"
+          src="/Users/nickscheurich/Desktop/Homework2/pictures/github.png"
           alt="Github"
       /></a>
       <a
@@ -122,12 +130,12 @@
         target="_blank"
       >
         <img
-          src="/Users/nickscheurich/Desktop/Homework2/Homework-2_NK/pictures/linkedin.png"
+          src="/Users/nickscheurich/Desktop/Homework2/pictures/linkedin.png"
           alt="Linkedin"
       /></a>
       <a href="https://www.facebook.com/nick.scheurich.7" target="_blank">
         <img
-          src="/Users/nickscheurich/Desktop/Homework2/Homework-2_NK/pictures/facebook.png"
+          src="/Users/nickscheurich/Desktop/Homework2/pictures/facebook.png"
           alt="Facebook"
       /></a>
     </footer>
